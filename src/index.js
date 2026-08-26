@@ -14,4 +14,3 @@ app.get('/usuarios', (req, res) => {
 });
 
 module.exports = app;
-	
