@@ -1,10 +1,10 @@
 --
-CREATE DATABASE projeto_backend_angela;
+CREATE DATABASE projeto_node_ds;
 --
-USE projeto_backend_angela;
+USE projeto_node_ds;
 --
 CREATE TABLE usuarios (
-    id_usuario INT PRIMARY KEY,
+    id_usuario INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
     telefone VARCHAR(20),
@@ -19,9 +19,6 @@ CREATE TABLE usuarios (
     senha VARCHAR(255) NOT NULL
 );
 --
-INSERT INTO usuarios VALUES (
-NULL, 'Rafaelly', 'rafa1', '123456'
-);
---
-SELECT * FROM usuarios;
+SELECT *
+ FROM usuarios;
 --
