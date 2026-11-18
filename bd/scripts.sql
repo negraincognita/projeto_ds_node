@@ -17,6 +17,9 @@ CREATE TABLE usuarios (
     estado VARCHAR(2),
     login VARCHAR(50) NOT NULL UNIQUE,
     senha VARCHAR(255) NOT NULL
+)
+INSERT INTO usuarios VALUES(
+    NULL, 'rafaelly', 'rafa26', '123456'
 );
 --
 SELECT *
